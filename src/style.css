@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 32px 1fr;
+    gap: 12px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+#content{
+    background-color:aqua;
+    
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    padding: 16px;
+
+    display: grid;
+    gap: 16px;
+
+    width: 70%;
+}
+
+.informationTile{
+    display: grid;
+    gap: 16px;
+
+    background-color: peachpuff;
+
+    border-radius: 8px;
+}
+
+.customerQuote{
+    background-color: peachpuff;
+    border: 2px solid black;
+    border-radius: 8px;
+
+    width: 55%;
+}
